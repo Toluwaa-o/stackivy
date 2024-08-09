@@ -75,9 +75,9 @@ const AnimatedSection = () => {
 
       {animationState && (
         <div className="flex items-center gap-4">
-          <span className="flex h-[63vh] w-[25px] sm:w-[10px] bg-my-orange-50 rounded-2xl relative overflow-hidden">
+          <span className="flex h-[99%] w-[25px] sm:w-[10px] bg-my-orange-50 rounded-2xl relative overflow-hidden">
             <span
-              className={`absolute h-[33%] rounded-3xl left-0 w-[9px] flex bg-my-orange ${animationState.no} transition-all`}
+              className={`absolute h-[35%] rounded-3xl left-0 w-[10px] flex bg-my-orange ${animationState.no} transition-all`}
             ></span>
           </span>
           <span className="flex gap-4 flex-col justify-between md:gap-4">
