@@ -183,7 +183,7 @@ export default function Home() {
           explore={false}
         />
 
-        <div className="grid grid-flow-row auto-rows-[38vh] gap-6 md:flex md:gap-4 md:w-[85%] md:mx-auto">
+        <div className="flex flex-col gap-6 md:flex md:flex-row md:gap-4 md:w-[85%] md:mx-auto">
           {cards_two.map((details) => (
             <Card key={details.title} {...details} />
           ))}
