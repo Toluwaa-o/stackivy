@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header className="py-4 px-3">
-          <span className="bg-light-gray flex justify-between items-center px-4 py-2 rounded-lg sm:rounded-3xl sm:px-2 sm:w-full">
+          <span className="bg-light-gray flex justify-between items-center px-4 py-2 rounded-lg sm:rounded-3xl sm:px-2 sm:w-full md:w-[90%] md:mx-auto">
             <img src="/Images/Logo.png" alt="logo" />
             <span className="sm:flex hidden items-center m-auto w-full">
               <span className="w-[70%] flex items-center justify-around m-auto md:w-[40%]">
