@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Mograch';
+  src: url('../public/font/mograch.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Mograch';
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.ozone-layer {
+  background: radial-gradient(circle,
+      #1F5C61 0%,
+      #1F5C61 55%,
+      #21838A 55%,
+      #21838A 70%,
+      #2B7C83 70%,
+      #2B7C83 85%,
+      #206E74 85%,
+      #206E74 100%);
+  background-size: cover;
+  background-position: center;
+}
